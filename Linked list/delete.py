@@ -8,7 +8,6 @@ class LinkedList:
     def __init__(self):
         self.head=None
 
-
     def append(self, new_node):  #everytime i create a new node it has to passed to append
         if(self.head==None):
             self.head=new_node
@@ -47,8 +46,9 @@ class LinkedList:
                 temp=temp.next
             if temp==None:
                 print("Value is not there in the list")
-            prev.next=temp.next
-            temp=None
+    #while block is used to find the value that is to be deleted
+        prev.next=temp.next #deleting logic
+        temp=None
 
     
     def print(self):
