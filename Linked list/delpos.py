@@ -81,14 +81,6 @@ class LinkedList:
         prev.next=None
         temp=None
 
-    def sum(self):
-        temp=self.head
-        while temp and temp.next:
-            total = temp.data + temp.data
-            print(temp.data,"+",temp.next.data,
-                  "=",total)
-            temp=temp.next
-
     def print(self):
         
         temp=self.head
@@ -121,5 +113,3 @@ list.print()
 #print("Reversed list")
 #list.reverse()
 #list.print()
-#print("Sum of consecutive pairs")
-#list.sum()
