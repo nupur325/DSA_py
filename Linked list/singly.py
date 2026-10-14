@@ -20,7 +20,7 @@ class LinkedList:
         count=0    # count len of list
         temp=self.head
         while temp:
-            print(temp.data)
+            print(temp.data,end=" ")
             temp=temp.next
 
 list=LinkedList()
