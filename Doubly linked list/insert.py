@@ -1,4 +1,5 @@
 #Doubly linear linked list
+#insert node and reverse list operation
 class Node:
     def __init__(self,value):
         self.prev = None
