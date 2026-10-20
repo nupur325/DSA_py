@@ -77,11 +77,10 @@ class LinkedList:
             temp=temp.next
 
     def print(self):
-        
         temp=self.head
         print("Linked list data")
         while temp:
-            print(temp.data)
+            print(temp.data,end = " ")
             temp=temp.next
 
 list=LinkedList()
@@ -94,17 +93,17 @@ list.append(n2)
 list.append(n3)
 list.append(n4)
 list.print()
-print("List after insertion")
+print("\nList after insertion")
 list.insert(Node(100),3)
 list.insert(Node(70),4)
 list.print()
-print("Middle node:")
+print("\nMiddle node:")
 list.middle()
 list.del_node(100)
-print("Linked list after deleting")
+print("\nLinked list after deleting")
 list.print()
-print("Reversed list")
+print("\nReversed list")
 list.reverse()
 list.print()
-print("Sum of consecutive pairs")
+print("\nSum of consecutive pairs")
 list.sum()
