@@ -12,7 +12,7 @@ class LinkedList:
             self.head = newNode
         else:
             temp= self.head
-            while temp.next!=None:
+            while temp.next!= None:
                 temp = temp.next #traversing bhai
             temp.next = newNode
 
