@@ -9,4 +9,16 @@ Terminology:
     node in the longest path is called Height of that Node  
     *In any tree 'height of node' is the total number of edges from leaf to that node in longest path   
     *In any tree 'height of node' is the height of the root node
-Q- write a function to know height of the tree
+    Q- write a function to know height of the tree
+    
+8. Subtree - here, each child from a node forms a subtree recursively. Every child node will form a 
+    subtree on its parent node.
+    Q- WAF to count subtress of a node
+
+9. Path- the sequence of Nodes and Edges from one node to another node is called as Path between those nodes
+    Q- WAF to count number of nodes from path A-J
+
+10. Level- the root node is said to be at level 0 and the children of root node are at level 1 and children of the
+    nodes at level 1 will be at level 2
+    Q - write a function to print all the nodes on level 2
+
