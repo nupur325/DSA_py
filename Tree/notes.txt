@@ -1,0 +1,12 @@
+Terminology:
+1. Root
+2. Edge
+3. Sibling
+4. Degree of Node
+5. Terminal Node/Leaf node- in a tree structure, the node which has no child is known as leaf node
+6. Nonterminal node/Internal- 
+7. Height- i=In a tree structure, the total number of edges from leaf node to a particular 
+    node in the longest path is called Height of that Node  
+    *In any tree 'height of node' is the total number of edges from leaf to that node in longest path   
+    *In any tree 'height of node' is the height of the root node
+Q- write a function to know height of the tree
