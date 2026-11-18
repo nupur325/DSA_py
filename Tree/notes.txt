@@ -10,7 +10,7 @@ Terminology:
     *In any tree 'height of node' is the total number of edges from leaf to that node in longest path   
     *In any tree 'height of node' is the height of the root node
     Q- write a function to know height of the tree
-    
+
 8. Subtree - here, each child from a node forms a subtree recursively. Every child node will form a 
     subtree on its parent node.
     Q- WAF to count subtress of a node
@@ -22,3 +22,18 @@ Terminology:
     nodes at level 1 will be at level 2
     Q - write a function to print all the nodes on level 2
 
+TYPES OF TREE:
+
+1. Binary Tree: A binary tree is either an empty tree or a binary tree consists of a root node, a left subtree and a right subtree, 
+                both of which will act as a binary tree once again.
+
+2. Strictly Binary Tree: Strictly Binary tree is defined as a binary tree where all the nodes will have either zero or two children.
+
+3. Completely Binary Tree: A complete binary tree is a strictly binary tree in which all leaf nodes are at the same level.
+
+4. Left skewed binary tree: A left skew tree has node associated 
+
+5. A Binary Search Tree(BST): It is a tree in which all the nodes follow the below-mentioned properties:
+                              *The left sub-tree of a node has a value less than its parent node's value.
+                              *The right sub-tree of a node has a value greater than or equal to its parent node's value.
+                              *All subtrees follow above two rules.
