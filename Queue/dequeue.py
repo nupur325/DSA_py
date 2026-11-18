@@ -28,14 +28,6 @@ class Queue:
             if self.front is None:
                 self.rear = None
 
-    def dequeue(self):
-        if self.isempty():
-            print("Queue is empty")
-        else:
-            self.front = self.front.next
-            if self.front is None:
-                self.rear = None
-
     def print(self):
         if self.isempty():
             print("Queue is empty")
