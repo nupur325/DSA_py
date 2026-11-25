@@ -37,3 +37,12 @@ TYPES OF TREE:
                               *The left sub-tree of a node has a value less than its parent node's value.
                               *The right sub-tree of a node has a value greater than or equal to its parent node's value.
                               *All subtrees follow above two rules.
+
+Q practical
+delete :
+leaf node
+node with left child only
+node with right child only
+node with both left & right node child - (inorder successor use)
+
+search - check if node is present 

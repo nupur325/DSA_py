@@ -11,8 +11,11 @@ class Stack:
         return self.top is None
 
     def push(self, new_node):
-        new_node.next = self.top
-        self.top = new_node
+        if self.isempty:
+            print("Stack is empty")
+        else:
+            new_node.next = self.top
+            self.top = new_node
 
     def pop(self):
         if self.isempty():
